@@ -1,15 +1,13 @@
 *{
-    background-color: rgb(163, 3, 3);
+    background-color: rgb(120, 1, 1);
 }
 
-
-
 h1 {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.055em;
     font-family:  'Times New Roman', Times, serif, serif;
     font-size: 10vw;
     text-align: center;
-    line-height: 6.7vh;
+    line-height: 0.5em;
     color: white;
     font-weight: 700;
     font-style: normal;
@@ -19,18 +17,35 @@ h3 {
     font-family: 'Times New Roman', Times, serif, serif;
     letter-spacing: 0.02em;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
-    line-height: -2em;
+    line-height: -9em;
     color: white;
     text-transform: uppercase;
 }
-
-.textcontainer {
+.thepresident{
+    color: white;
+    font-weight: bold;
+}
+.goback button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 20px;
+    height: 75px;
+    width: 75px;
+}
+.everythingcontainer {
     display: flex;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     flex-direction: column;
     justify-content: center;
-    padding: 10%;
+    align-items: center;
 }
 
 p {
@@ -49,6 +64,15 @@ p {
     white-space: pre;
     color: white;
     font-size: 8px;
+    text-align: center;
+    margin: 0;
+}
+
+.ascii-whitehouse {
+    font-family: monospace;
+    white-space: pre;
+    color: white;
+    font-size: 4px;
     text-align: center;
     margin: 0;
 }
@@ -77,33 +101,43 @@ button {
             margin-top: 4em;
             animation: blink 2s infinite;
         }
-
-
-
- @keyframes blink {
-            0% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
+.fast-blinking-text {
+            text-align: center;
+            margin-top: 4em;
+            animation: blink 1.5s infinite;
+        }
+.faster-blinking-text {
+            text-align: center;
+            margin-top: 4em;
+            animation: blink 1s infinite;
+        }
+.fasterer-blinking-text {
+            text-align: center;
+            margin-top: 4em;
+            animation: blink 0.75s infinite;
+        }
+.fastererer-blinking-text {
+            text-align: center;
+            margin-top: 4em;
+            animation: blink 0.5s infinite;
         }
 
-.moving-text {
-
-}
-
 .home button{
-    font-size: 4vh;
+    font-size: 1em;
     padding-top:-2em;
     color: white;
     font-family: times, serif;
     font-weight:800;
+    letter-spacing: 0.4em;
+}
+
+.two button{
+    padding-top:-2em;
+    color: white;
+    font-family: times, serif;
+    font-weight:800;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
 }
 
 .four button{
@@ -141,7 +175,7 @@ button {
 .eight button{
     font-size: 13vh;
     margin-top:-5em;
-    color: rgb(176, 255, 137);
+    color: rgb(85, 255, 0);
     font-family: times, serif;
     font-weight:1000;
 }
