@@ -1,16 +1,56 @@
 *{
-    background-color: rgb(120, 1, 1);
+    background-color: rgb(139, 0, 0);
 }
+@media only screen and (max-width: 425px) {
+    h1 {
+        letter-spacing: 0.055em;
+        font-family:  'Times New Roman', Times, serif, serif;
+        font-size: 10vw;
+        text-align: center;
+        line-height: 0.5em;
+        color: white;
+        font-weight: 700;
+        font-style: normal;
+    }
+    h3 {
+        font-family: 'Times New Roman', Times, serif, serif;
+        letter-spacing: 0.02em;
+        font-weight: 300;
+        font-size: 0.9em;
+        text-align: center;
+        line-height: -9em;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .nine button{
+        font-size: 14vw;
+        margin-top:-0.5em;
+        color: rgb(255, 255, 255);
+        font-family: times, serif;
+        font-weight:1000;
+    }
+    .eight button{
+        font-size: 13vh;
+        margin-top:-5em;
+        color: rgb(255, 255, 255);
+        font-family: times, serif;
+        font-weight:1000;
+    }  
+
+}
+
 
 h1 {
     letter-spacing: 0.055em;
     font-family:  'Times New Roman', Times, serif, serif;
-    font-size: 10vw;
+    font-size: 8vw;
     text-align: center;
     line-height: 0.5em;
     color: white;
     font-weight: 700;
     font-style: normal;
+    top:0;
 }
 
 h3 {
@@ -19,13 +59,31 @@ h3 {
     font-weight: 300;
     font-size: 0.9em;
     text-align: center;
-    line-height: -9em;
+    line-height: 0em;
     color: white;
     text-transform: uppercase;
 }
-.thepresident{
+.thepresident {
+    padding-top: 2em;
+    font-family: times, serif;
+    font-weight: 400;
+    font-size: 2vh;
+    text-align:center;
     color: white;
-    font-weight: bold;
+}
+.back button{
+    position: fixed;
+    font-size: 2vw;
+    color: white;
+    bottom: 7vw;
+    left: 5vw;
+}
+.forward button{
+    position: fixed;
+    font-size: 2vw;
+    color: white;
+    bottom: 7vw;
+    right: 5vw;
 }
 .goback button{
     font-family: 'Times New Roman', Times, serif;
@@ -121,6 +179,11 @@ button {
             margin-top: 4em;
             animation: blink 0.5s infinite;
         }
+.fasterererer-blinking-text {
+            text-align: center;
+            margin-top: 4em;
+            animation: blink 0.25s infinite;
+        }
 
 .home button{
     font-size: 1em;
@@ -130,7 +193,15 @@ button {
     font-weight:800;
     letter-spacing: 0.4em;
 }
-
+.home button:hover{
+    font-size: 1.04em;
+    padding-top:-2em;
+    color: white;
+    font-family: times, serif;
+    font-weight:800;
+    letter-spacing: 0.4em;
+    transition: 0.5s ease-out;
+}
 .two button{
     padding-top:-2em;
     color: white;
@@ -139,31 +210,27 @@ button {
     font-size: 1.5em;
     letter-spacing: 0.2em;
 }
-
 .four button{
-    font-size: 5vh;
+    font-size: 3vh;
     padding-top:-2em;
     color: rgb(255, 244, 244);
     font-family: times, serif;
     font-weight:800;
 }
-
 .five button{
-    font-size: 6vh;
+    font-size: 4vh;
     padding-top:-2em;
     color: rgb(255, 183, 183);
     font-family: times, serif;
     font-weight:800;
 }
-
 .six button{
     font-size: 7vh;
     padding-top:-2em;
-    color: rgb(253, 167, 167);
+    color: rgb(255, 255, 255);
     font-family: times, serif;
     font-weight:900;
 }
-
 .seven button{
     font-size: 8vh;
     padding-top:-2em;
@@ -171,31 +238,124 @@ button {
     font-family: times, serif;
     font-weight:900;
 }
-
 .eight button{
     font-size: 13vh;
     margin-top:-5em;
-    color: rgb(85, 255, 0);
+    color: rgb(255, 255, 255);
     font-family: times, serif;
     font-weight:1000;
 }
-
 .nine button{
+    font-size: 14vw;
+    margin-top:0.000002em;
+    color: rgb(255, 255, 255);
+    font-family: times, serif;
+    font-weight:1000;
+}
+.ten button{
+    margin-top: 0px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 6rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.eleven button{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 7rem;
     text-align: center; font-size: 50px;
             background: linear-gradient(to left,violet,
             indigo, blue, green, yellow, orange, red);
             -webkit-background-clip: text;
             color: transparent;
 }
-
-.thepresident {
-    padding-top: 2em;
-    font-family: times, serif;
-    font-weight: 400;
-    font-size: 2vh;
-    text-align:center;
+.twelve{
 
 }
+.thirteen
+.fourteen button{
+    color: white;
+}
+.fifteen {
+
+}
+.sixteen
+.seventeen
+.eighteen
+.nineteen button {
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+
+}
+.twenty
+.twentyone
+.twentytwo
+.twentythree
+.twentyfour
+.twentyfive button{
+    color: white;
+}
+.twentysix
+.twentyseven
+.twentyeight
+.twentynine
+.thirty
+.thirtyone
+.thirtytwo
+.thirtythree
+.thirtyfour
+.thirtyfive
+.thirtysix
+.thirtyseven
+.thirtyeight button{
+}
+.thirtynine
+.forty button{
+    padding-top:-2em;
+    color: white;
+    font-family: times, serif;
+    font-weight:800;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+.fortyone button{
+    font-family: times, serif;
+    font-weight: 1000;
+    font-size: 10vw;
+    letter-spacing: 0.2em;
+}
+.fortytwo button{
+    font-family: times;
+    font-size: 20vw;
+}
+.fortythree button{
+    font-family: times;
+    font-weight: 1000;
+}
+.fortyfour
+.fortyfive
+.fortysix
+.fortyseven
+.fortyeight
+.fortynine
+.fifty
+.fiftyone
+.fiftytwo
+.fiftythree
+.fiftyfour
+.fiftyfive
+.fiftysix
+.fiftyseven
+.fiftyeight
+.fiftynine
+.sixty
+.sixtyone
+.sixtytwo
+.sixtythree
 
 .rainbow-gradient button{
     margin-top: 0px;
@@ -203,6 +363,37 @@ button {
   font-family: sans-serif;
   font-size: 6rem;
   background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flag-gradient button{
+    margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 6rem;
+  background: linear-gradient(to top, #ff0400, #ffffff, #0011ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flag-gradient2 button{
+    margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 4rem;
+  background: linear-gradient(to top, #ff0400, #ffffff, #0011ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.transflag-gradient button{
+    margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 6rem;
+  font-weight:1000;
+  background: linear-gradient(to top, #84bdff, #ff8dd0, #ffffff, #ff8dd0,#84bdff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -224,3 +415,127 @@ button {
                -32px 32px #f9a825,
                -36px 36px #ff5722;
 }
+
+
+.strong-hover-shake:hover {
+    animation: tilt-shaking 0.15s infinite;
+  }
+.gentle-hover-shake:hover {
+  animation: tilt-shaking 0.25s infinite;
+}
+.gentle-tilt-move-shake:hover {
+    animation: tilt-n-move-shaking 0.25s infinite;
+  }
+  .gentle2-tilt-move-shake:hover {
+    animation: tilt-n-move-shaking 0.20s infinite;
+  }
+.strong-tilt-move-shake:hover {
+    animation: tilt-n-move-shaking 0.15s infinite;
+  }
+  .strong2-tilt-move-shake:hover {
+    animation: tilt-n-move-shaking 0.10s infinite;
+  }
+  .strong3-tilt-move-shake:hover {
+    animation: tilt-n-move-shaking 0.05s infinite;
+  }
+.constant-tilt-shake {
+    animation: tilt-shaking 0.3s infinite;
+  }
+.vertical-shake {
+  animation: vertical-shaking 0.35s infinite;
+}
+.vertical-shake2 {
+    animation: vertical-shaking 0.20s infinite;
+  }
+.horizontal-shake {
+    animation: horizontal-shaking 0.35s infinite;
+  }
+.rise-shake {
+  animation: jump-shaking 0.83s infinite;
+}
+.skew-shake-x {
+    animation: skew-x-shake 1.3s infinite;
+  }
+.skew-shake-y {
+  animation: skew-y-shake 1.3s infinite;
+}
+.lightupsign button{
+    font-size: 6vw;
+    animation: lightupsign 2s infinite;
+}
+.grow button{
+    font-size: 2vw;
+}
+.grow button:hover{
+    font-size: 20vw;
+    transition: 5s ease-in-out;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  @keyframes tilt-n-move-shaking {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
+  
+  @keyframes vertical-shaking {
+    0% { transform: translateY(0) }
+    25% { transform: translateY(5px) }
+    50% { transform: translateY(-5px) }
+    75% { transform: translateY(5px) }
+    100% { transform: translateY(0) }
+  }
+  
+  @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }
+  
+  @keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+  }
+  
+  @keyframes skew-x-shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+  
+  @keyframes skew-y-shake {
+    0% { transform: skewY(-15deg); }
+    5% { transform: skewY(15deg); }
+    10% { transform: skewY(-15deg); }
+    15% { transform: skewY(15deg); }
+    20% { transform: skewY(0deg); }
+    100% { transform: skewY(0deg); }  
+  }
+
+  @keyframes lightupsign{
+    0% {color:white;}
+    10% {color: black;}
+    15%{color:white;}
+    70%{color: black;}
+    75% {color:white;}
+    100%{color:black;}
+  }
